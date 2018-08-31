@@ -19,14 +19,17 @@ gem 'turbolinks', '~> 5' #navigate your web application faster
 gem 'jbuilder', '~> 2.5' #Build JSON APIs
 
 # learning rails
+gem 'carrierwave'
 gem 'pg',                  group: :production
-group :production do
-  gem 'pg'
-end
 
-group :development, :test do
-  gem 'sqlite3'  
-end  
+
+#group :production do
+#  gem 'pg'
+#end
+
+#group :development, :test do
+#  gem 'sqlite3'  
+#end  
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
