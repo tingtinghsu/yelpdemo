@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.5' #Build JSON APIs
 # learning rails
 gem 'figaro'
 gem 'carrierwave'
+gem "fog-aws" 
 gem 'pg',                  group: :production
 
 
