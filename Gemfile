@@ -19,9 +19,10 @@ gem 'turbolinks', '~> 5' #navigate your web application faster
 gem 'jbuilder', '~> 2.5' #Build JSON APIs
 
 # learning rails
-gem 'figaro'
 gem 'carrierwave'
+gem 'figaro'
 gem "fog-aws" 
+gem "mini_magick"
 gem 'pg',                  group: :production
 
 
